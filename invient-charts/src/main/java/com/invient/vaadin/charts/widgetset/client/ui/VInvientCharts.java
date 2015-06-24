@@ -1078,6 +1078,9 @@ public class VInvientCharts extends GwtInvientCharts implements Paintable /*
         if (uidl.hasAttribute("margin")) {
             legendOptions.setMargin(uidl.getIntAttribute("margin"));
         }
+        if (uidl.hasAttribute("maxHeight")) {
+            legendOptions.setMaxHeight(uidl.getIntAttribute("maxHeight"));
+        }
         if (uidl.hasAttribute("reversed")) {
             legendOptions.setReversed(uidl.getBooleanAttribute("reversed"));
         }

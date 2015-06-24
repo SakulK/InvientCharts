@@ -5042,6 +5042,7 @@ public final class InvientChartsConfig implements Serializable {
         private Layout layout;
         private String labelFormatterJsFunc;
         private Integer margin;
+		private Integer maxHeight;
         private Boolean reversed;
         private Boolean shadow;
         private Integer symbolPadding;
@@ -5172,6 +5173,14 @@ public final class InvientChartsConfig implements Serializable {
         public void setMargin(Integer margin) {
             this.margin = margin;
         }
+
+		public Integer getMaxHeight() {
+			return maxHeight;
+		}
+
+		public void setMaxHeight(Integer maxHeight) {
+			this.maxHeight = maxHeight;
+		}
 
         public Boolean getReversed() {
             return reversed;

@@ -1882,6 +1882,10 @@ class GwtInvientChartsConfig extends JavaScriptObject {
                                                        this.margin = margin;
                                                        }-*/;
 
+		public native final void setMaxHeight(int maxHeight) /*-{
+															this.maxHeight = maxHeight;
+															}-*/;
+
         public native final void setReversed(boolean reversed) /*-{
                                                                this.reversed = reversed;
                                                                }-*/;

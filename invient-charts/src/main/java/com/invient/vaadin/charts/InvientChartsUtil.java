@@ -285,6 +285,10 @@ final class InvientChartsUtil {
             target.addAttribute("margin", legendOptions.getMargin());
         }
 
+        if (legendOptions.getMaxHeight() != null) {
+            target.addAttribute("maxHeight", legendOptions.getMaxHeight());
+        }
+
         if (legendOptions.getReversed() != null) {
             target.addAttribute("reversed", legendOptions.getReversed());
         }
